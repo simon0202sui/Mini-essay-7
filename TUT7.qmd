@@ -28,7 +28,7 @@ After implementing these adjustments, I obtained a 'cleaned' dataset that encaps
 
 ## Results:
 
-In this analysis, I employed the tidyverse package @tidyverse in R @R to calculate the mean of the adjusted dataset, which resulted in a value of 1.086736. This demonstrates a modest increase when contrasted with the mean of the original dataset, which was calculated to be 1.057075. The significance of this alteration in the mean is supported through an analysis of the histograms that depict the distributions of the initial and adjusted datasets. These visual representations provide insight into how the dataset's characteristics have evolved post-adjustment, highlighting the impact of the modifications on the data's central tendency.
+In this analysis, I employed the tidyverse package @tidyverse in R @R to calculate the mean of the adjusted dataset, which resulted in a value of 1.086736. This demonstrates a modest increase when contrasted with the mean of the original dataset, which was calculated to be 1.057075. The significance of this alteration in the mean is supported through an analysis of the histograms that depict the distributions of the initial and adjusted datasets. These visual representations provide insight into how the dataset's characteristics have evolved post-adjustment, highlighting the impact of the modifications on the data's central tendency
 
 ```{r}
 #| label: fig-initial
@@ -49,8 +49,6 @@ hist(initial_data)
 #| echo: false
 #| warning: false
 #| message: false
-library(gitcreds)
-gitcreds_set()
 
 set.seed(438)
 
