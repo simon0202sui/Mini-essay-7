@@ -2,7 +2,7 @@
 title: "Mini-essay 7"
 author: 
   - Pengyu Sui
-thanks: "Code and data are available at: https://github.com/simon0202sui/Mini-essay-7.git> Acknowledge the review of Victor Chen "
+thanks: "Code and data are available at: https://github.com/simon0202sui/Mini-essay-7.git Acknowledge the review of Victor Chen "
 date: today
 date-format: long
 format: pdf
@@ -49,6 +49,8 @@ hist(initial_data)
 #| echo: false
 #| warning: false
 #| message: false
+library(gitcreds)
+gitcreds_set()
 
 set.seed(438)
 
